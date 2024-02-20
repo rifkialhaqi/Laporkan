@@ -43,7 +43,7 @@
                         if(password_verify($password, $data['password'])) {
                             $_SESSION['logged_in'] = true;
                             $_SESSION['username'] = $data['username'];
-                            header("location: index.php");
+                            header("location: index.html");
                         } else {
                             echo "Password salah";
                         }

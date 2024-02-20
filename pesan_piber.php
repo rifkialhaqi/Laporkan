@@ -82,7 +82,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <?php } ?>
     </table>
     <div class="button-container">
-        <a href="index_piber.php">
+        <a href="index_piber.html">
          <button onclick="">Kembali</button>
         </a>
     </div>

@@ -1,6 +1,6 @@
 <?php
   session_start();
   session_destroy();
-  header("location: login_user.php");
+  header("location: login_user.html");
 
 ?>

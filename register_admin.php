@@ -52,7 +52,7 @@ require "database.php";
 
                     if ($queryInsert) {
                         echo "Register sukses";
-                        header("location: login_admin.php");
+                        header("location: login_admin.html");
                     }
                 }
             }

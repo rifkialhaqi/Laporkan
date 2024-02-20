@@ -120,7 +120,7 @@ table td.keterangan {
         ?>
       </table>
       <div class="button-container">
-        <a href="index.php">
+        <a href="index.html">
          <button onclick="">Kembali</button>
         </a>
       </div>

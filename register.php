@@ -50,7 +50,7 @@ require "database.php";
 
                     if ($queryInsert) {
                         echo "<p class='text-green-500'>Register berhasil</p>";
-                        header("location: login_user.php");
+                        header("location: login_user.html");
                     }
                 }
             }

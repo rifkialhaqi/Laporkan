@@ -47,7 +47,7 @@
                             $_SESSION['logged_in'] = true;
                             $_SESSION['username'] = $data['username'];
 
-                            header("location: index_piber.php");
+                            header("location: index_piber.html");
                         } else {
                             echo "<p class='text-red-500'>Password tidak sesuai</p>";
                         }

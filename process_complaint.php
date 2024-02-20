@@ -16,7 +16,7 @@ $keterangan = isset($_POST['keterangan']) ? $_POST['keterangan'] : '';
 // Masukkan data pengaduan ke dalam database
 $sql = "INSERT INTO laporan (nama, kontak, email, alamat, keterangan) VALUES ('$nama', '$kontak', '$email', '$alamat', '$keterangan')";
 if (mysqli_query($connection, $sql)) {
-    header("Location: index.php"); // Redirect ke halaman utama setelah penyimpanan berhasil
+    header("Location: index.html"); // Redirect ke halaman utama setelah penyimpanan berhasil
 } else {
     echo "Error: " . $sql . "<br>" . mysqli_error($connection);
 }

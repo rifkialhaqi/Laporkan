@@ -80,7 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <?php } ?>
     </table>
     <div class="button-container">
-        <a href="index_admin.php">
+        <a href="index_admin.html">
          <button onclick="">Kembali</button>
         </a>
     </div>
