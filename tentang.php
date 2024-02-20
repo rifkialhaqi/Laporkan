@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layanan Pengaduan Masyarakat</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Tambahkan ikon media sosial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-s+yTf0RAdExLrS4aIh9RgPOTwGPAmFcdlCJXYy4dF71Nlkd2EhCvCP/5VxT3jtbkKcgYFjGxtWi9UdOcHYI0bA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .paragraf{
+        padding: 2rem;
+        color: white;
+        font-size: large;
+    }
+</style>
+<body class="font-sans bg-gray-400">
+
+    <header class="bg-gray-600 text-white py-4">
+        <div class="container mx-auto flex items-center justify-between px-4">
+            <div class="flex items-center"> <!-- Menggunakan flex items-center -->
+                <img src="logo (2).png" alt="Logo" class="h-20 mr-2">
+                <h1 class="text-2xl font-bold">LAPORKAN</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="index.php" class="hover:underline">Beranda</a></li>
+                    <li><a href="laporan.php" class="hover:underline">Pengaduan Saya</a></li>
+                    <li><a href="tentang.php" class="hover:underline">Tentang</a></li>
+                    <li><button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded">
+                           <a href="pilih.php">Login</a>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <p class="paragraf"><span><b>S</b></span>elamat datang di platform pengaduan masyarakat, tempat di mana suara Anda didengar, masalah Anda diakui, dan solusi ditemukan. Kami adalah jembatan antara Anda dan pelayanan publik yang lebih baik.
+
+Di sini, setiap keluhan, saran, dan aspirasi memiliki nilai yang sama. Kami percaya bahwa setiap pengalaman Anda penting, dan melalui platform ini, kami berkomitmen untuk memastikan bahwa suara Anda didengar dengan penuh hormat dan tanggapan yang cepat.
+
+Kami mengerti bahwa setiap permasalahan adalah potensi perbaikan. Dengan berani mengungkapkan ketidakpuasan dan kekhawatiran Anda, Anda membantu membangun masyarakat yang lebih baik, lebih inklusif, dan lebih responsif terhadap kebutuhan semua orang.
+
+Dengan transparansi sebagai nilai inti kami, setiap langkah dari pengaduan hingga resolusi ditempuh dengan kejujuran dan integritas. Kami bekerja sama dengan lembaga-lembaga terkait untuk memastikan bahwa setiap masalah diselesaikan secara adil dan efisien.
+
+Di sini, Anda bukan hanya pengadu, tetapi juga bagian dari solusi. Bersama-sama, kita membentuk komunitas yang peduli dan bertanggung jawab, mengubah tantangan menjadi peluang, dan membangun masa depan yang lebih cerah bagi semua.
+
+Mari bergabung dalam perjalanan kami untuk menciptakan perubahan yang positif. Sampaikan suara Anda, lakukan perbedaan, dan bersama-sama kita wujudkan masyarakat yang lebih baik untuk kita semua.
+
+
+
+
+
+</p>
+
+    <footer class="bg-gray-800 text-white py-8 mt-10">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
+        <div class="mb-4 md:mb-0">
+            <h3 class="text-lg font-semibold mb-2">Hubungi Kami</h3>
+            <p class="text-gray-300">Jl. Contoh No. 123, Kota, Negara</p>
+            <p class="text-gray-300">Email: info@laporkan.com</p>
+            <p class="text-gray-300">Telp: 123-456-7890</p>
+        </div>
+        <div class="flex items-center space-x-4">
+            <!-- Tambahkan tautan ikon media sosial -->
+            <a href="#" class="text-gray-300 hover:text-white">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="text-gray-300 hover:text-white">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="text-gray-300 hover:text-white">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <p>&copy; 2024 Layanan Pengaduan Masyarakat. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
